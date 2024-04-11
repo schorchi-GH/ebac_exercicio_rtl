@@ -33,9 +33,14 @@ const PostComment = () => {
   placeholder="Adicione um comentário..."
   data-testid="comment-input"
   className={styles['post-comments-form-textarea']}
-/>                <button type="submit" className={styles['post-comments-form-button']}>
-                    Comentar
-                </button>
+/>                <button
+  type="submit"
+  className={styles['post-comments-form-button']}
+  data-testid="submit-comment-button"
+>
+  Comentar
+</button>
+
             </form>
         </div>
     );
